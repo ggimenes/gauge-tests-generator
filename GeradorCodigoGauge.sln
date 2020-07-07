@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.89
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCodigoGauge.Console", "GeradorCodigoGauge.Console\GeradorCodigoGauge.Console.csproj", "{C42988EF-E286-4D10-8FAC-227AB1D2BB4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C42988EF-E286-4D10-8FAC-227AB1D2BB4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C42988EF-E286-4D10-8FAC-227AB1D2BB4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C42988EF-E286-4D10-8FAC-227AB1D2BB4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C42988EF-E286-4D10-8FAC-227AB1D2BB4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F55C9D4-FB35-40EE-8C83-AC821600153A}
+	EndGlobalSection
+EndGlobal

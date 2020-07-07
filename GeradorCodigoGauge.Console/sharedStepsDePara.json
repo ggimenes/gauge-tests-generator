@@ -1,0 +1,127 @@
+[
+  {
+    "RegexDe": "(?i)no menu de contexto \\(\\.\\.\\.\\)",
+    "De": "",
+    "Para": "* Clicar no menu de contexto (...) na linha contendo o valor {0} na tabela",
+    "Criado": true,
+    "RegexParam": "\\s(@[^\\s,.]*)"
+  },
+  {
+    "RegexDe": "(?i)Clicar.*adicionar",
+    "De": "",
+    "Para": "* Clicar no botão Adicionar",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Clicar.*salvar",
+    "De": "",
+    "Para": "* Clicar no botão Salvar",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Clicar.*criar",
+    "De": "",
+    "Para": "* Clicar no botão Criar",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Clicar.*alterar",
+    "De": "",
+    "Para": "* Clicar no botão Alterar",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Clicar.*excluir",
+    "De": "",
+    "Para": "* Clicar no botão Excluir",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Clicar.*detalhar",
+    "De": "",
+    "Para": "* Clicar no botão Detalhar",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Clicar.*voltar",
+    "De": "",
+    "Para": "* Clicar no botão Voltar",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Clicar.*fechar",
+    "De": "",
+    "Para": "* Clicar no botão Fechar",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Clicar.*imprimir",
+    "De": "",
+    "Para": "* Clicar no botão Imprimir",
+    "Criado": true
+  },
+  {
+    "RegexDe": "(?i)Acessar.*URL",
+    "De": "",
+    "Para": "* Navegar para \"{0}\"",
+    "Criado": true,
+    "RegexParam": ".*(http:\\/\\/localhost:4200[\\w/]*)",
+    "ParamDePara": {
+      "http://192.168.0.20:4200/configuracoesdoestacionamento/bolsoesdevagas/criar": "",
+      "http://localhost:4200/configuracoesdoestacionamento/arquivoseriaismifare/carregar": "",
+      "http://localhost:4200/configuracoesdoestacionamento/bolsoesdevagas/consultar": "",
+      "http://localhost:4200/configuracoesdoestacionamento/equipamentos/consultar": "",
+      "http://localhost:4200/configuracoesdoestacionamento/estacionamentos/consultar": "",
+      "http://localhost:4200/configuracoesdoestacionamento/gruposdeequipamentos/consultar": "",
+      "http://localhost:4200/configuracoesdoestacionamento/integracaooperadoraarrecadacao": "",
+      "http://localhost:4200/configuracoesdoestacionamento/integracaooperadoraarrecadacao/consultar": "",
+      "http://localhost:4200/configuracoesdoestacionamento/parametrosgerais/detalhar": "",
+      "http://localhost:4200/configuracoesdoestacionamento/regrasdeemissaodebilhetesimpressos": "",
+      "http://localhost:4200/customizacao/mensagensdeaudio/consultar": "",
+      "http://localhost:4200/customizacao/telasvga/consultar": "",
+      "http://localhost:4200/financeiro/emitentefiscal/consultar": "",
+      "http://localhost:4200/financeiro/integracaotef/consultar": "",
+      "http://localhost:4200/financeiro/regrasemissaorecibos/consultar": "",
+      "http://localhost:4200/financeiro/regrasemissaorecibos/consultar ": "",
+      "http://localhost:4200/financeiro/taxacambial/detalharUnico": "",
+      "http://localhost:4200/instalacoeseatualizacoes/aplicativoseversoes/consultar": "",
+      "http://localhost:4200/operacao/agendamentotarefasautomatizadas": "",
+      "http://localhost:4200/operacao/alteracaotemporariadotempodetolerancia/alterar": "",
+      "http://localhost:4200/operacao/capturaslpr": "",
+      "http://localhost:4200/operacao/cargaparavalidadormanualestadia": "",
+      "http://localhost:4200/operacao/clientesdoestacionamento/consultar": "",
+      "http://localhost:4200/operacao/contratosestadia/consultar": "",
+      "http://localhost:4200/operacao/controledeequipamento": "",
+      "http://localhost:4200/operacao/controledeequipamento/": "",
+      "http://localhost:4200/operacao/controledeequipamento/consultar/": "",
+      "http://localhost:4200/operacao/estadiasabertas": "",
+      "http://localhost:4200/operacao/limpezapatio": "",
+      "http://localhost:4200/operacao/midiasperdidaspreautorizadas/consultar": "",
+      "http://localhost:4200/operacao/operacaomultiplascancelas/operar": "",
+      "http://localhost:4200/operacao/tiposdeocorrenciasnasestadias/consultar": "",
+      "http://localhost:4200/operacao/usuariosnaoautorizados/consultar": "",
+      "http://localhost:4200/produtosdeestadia/estruturasdetabelasdecobranca/consultar": "",
+      "http://localhost:4200/produtosdeestadia/produtosdeestadia/consultar": "",
+      "http://localhost:4200/produtosdeestadia/regrasdeacesso/consultar": "",
+      "http://localhost:4200/produtosdeestadia/regrasdeacesso/criar": "",
+      "http://localhost:4200/produtosdeestadia/regrasdecobranca/consultar": "",
+      "http://localhost:4200/produtosdeestadia/regrasdedescontos/consultar": "",
+      "http://localhost:4200/produtosdeestadia/regrasdemidiaperdida/consultar": "",
+      "http://localhost:4200/produtosdeestadia/regrasdemidiaperdida/criar": "",
+      "http://localhost:4200/produtosdeestadia/tabelasdecobranca/consultar": "",
+      "http://localhost:4200/seguranca/licencas/consultar": "",
+      "http://localhost:4200/seguranca/licencas/informarlicenca": "",
+      "http://localhost:4200/seguranca/perfisdeacessodosistema/consultar": "",
+      "http://localhost:4200/seguranca/usuariosdosistema/consultar": "",
+      "http://localhost:4200/selodedesconto/contratosprodutodescontoconsumo/consultar": "",
+      "http://localhost:4200/selodedesconto/estoqueselosdesconto/report": "",
+      "http://localhost:4200/selodedesconto/pedidosdeselodedesconto/consultar": "",
+      "http://localhost:4200/selodedesconto/produtosdeselodedesconto/consultar": "",
+      "http://localhost:4200/selodedesconto/selosdescontoconsumidos/consultar": "",
+      "http://localhost:4200/tesouraria/regrasdefechamentodosequipamentos": "",
+      "http://localhost:4200/tesouraria/regrasdefechamentodosequipamentos/consultar": "",
+      "http://localhost:4200/tesouraria/regrasdenumerariodeautoatendimento/consultar": ""
+
+    }
+  }
+]
