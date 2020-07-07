@@ -32,6 +32,8 @@ namespace GeradorCodigoGauge.Console
 
         private static string azureBaseUrl = "https://gauge-tests-generator.visualstudio.com/gauge-tests-generator/";
         private static string azureApiVersion = "api-version=5.0";
+        private static string azureToken = "";
+        
         private static string testPlanId = "13694";
         private static string csvSeparador = ",";
         // Escolher a suite que deseja gerar, ou gerar todas as suites do testplan
@@ -61,7 +63,7 @@ namespace GeradorCodigoGauge.Console
         private static bool _agruparAssert = true;
 
         const string tab = "        ";
-        
+
 
         static void Main(string[] args)
         {
@@ -1642,7 +1644,7 @@ namespace {solutionNamespace}.{outputPathPage.Replace("/", ".")}.{parentTitle}.{
 
         private static async Task CarregarTestSuite()
         {
-            var lstTestSuite = await BuscarTestSuite();
+            var lstTestSuite = await BuscarTestSuite();            
 
             // Todo: Filtrar suite 
             // Separando suites
@@ -1693,7 +1695,7 @@ namespace {solutionNamespace}.{outputPathPage.Replace("/", ".")}.{parentTitle}.{
         }
 
         private static async Task<IEnumerable<TestSuite>> BuscarTestSuite()
-        {            
+        {
             string url = $"{azureBaseUrl}_apis/test/Plans/{testPlanId}/suites?{azureApiVersion}";
 
             var result = await ConsultarAzureDevops<TestSuite>(url);
@@ -1708,8 +1710,7 @@ namespace {solutionNamespace}.{outputPathPage.Replace("/", ".")}.{parentTitle}.{
         {
             RestClient client = new RestClient(url);
             var request = new RestRequest(url, Method.GET);
-            string token = "nnmwdqafzk25g5bhmwafv5rygtkgvdfnl3fj45mbrmvi6opdrwoa";
-            request.AddHeader("Authorization", $"Basic {Convert.ToBase64String(Encoding.ASCII.GetBytes(":" + token))}");
+            request.AddHeader("Authorization", $"Basic {Convert.ToBase64String(Encoding.ASCII.GetBytes(":" + azureToken))}");
             client.UseSerializer(() => new NewtonsoftJsonRestSerializer());
 
             var result = await client.GetAsync<AzureRestResult<T>>(request);
