@@ -1,4 +1,4 @@
-[
+Ôªø[
   {
     "RegexDe": "(?i)no menu de contexto \\(\\.\\.\\.\\)",
     "De": "",
@@ -9,55 +9,55 @@
   {
     "RegexDe": "(?i)Clicar.*adicionar",
     "De": "",
-    "Para": "* Clicar no bot„o Adicionar",
+    "Para": "* Clicar no bot√£o Adicionar",
     "Criado": true
   },
   {
     "RegexDe": "(?i)Clicar.*salvar",
     "De": "",
-    "Para": "* Clicar no bot„o Salvar",
+    "Para": "* Clicar no bot√£o Salvar",
     "Criado": true
   },
   {
     "RegexDe": "(?i)Clicar.*criar",
     "De": "",
-    "Para": "* Clicar no bot„o Criar",
+    "Para": "* Clicar no bot√£o Criar",
     "Criado": true
   },
   {
     "RegexDe": "(?i)Clicar.*alterar",
     "De": "",
-    "Para": "* Clicar no bot„o Alterar",
+    "Para": "* Clicar no bot√£o Alterar",
     "Criado": true
   },
   {
     "RegexDe": "(?i)Clicar.*excluir",
     "De": "",
-    "Para": "* Clicar no bot„o Excluir",
+    "Para": "* Clicar no bot√£o Excluir",
     "Criado": true
   },
   {
     "RegexDe": "(?i)Clicar.*detalhar",
     "De": "",
-    "Para": "* Clicar no bot„o Detalhar",
+    "Para": "* Clicar no bot√£o Detalhar",
     "Criado": true
   },
   {
     "RegexDe": "(?i)Clicar.*voltar",
     "De": "",
-    "Para": "* Clicar no bot„o Voltar",
+    "Para": "* Clicar no bot√£o Voltar",
     "Criado": true
   },
   {
     "RegexDe": "(?i)Clicar.*fechar",
     "De": "",
-    "Para": "* Clicar no bot„o Fechar",
+    "Para": "* Clicar no bot√£o Fechar",
     "Criado": true
   },
   {
     "RegexDe": "(?i)Clicar.*imprimir",
     "De": "",
-    "Para": "* Clicar no bot„o Imprimir",
+    "Para": "* Clicar no bot√£o Imprimir",
     "Criado": true
   },
   {

@@ -19,9 +19,7 @@ namespace GeradorCodigoGauge.Console
 
     public class TestSuite
     {
-        [JsonIgnore]
         public HashSet<string> IdsTestCases { get; set; }
-        [JsonIgnore]
         public IEnumerable<string> IdsTestCasesOrdenados { get; set; }
 
         public int id { get; set; }

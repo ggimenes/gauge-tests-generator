@@ -23,7 +23,7 @@ namespace GeradorCodigoGauge.Console
 {
     public class Generator
     {
-        const string outputPath = "output";
+        public static string outputPath = "output";
         const string outputPathSpec = "specs";
         const string outputPathImp = "specs";
         const string outputPathPage = "specs";
@@ -38,7 +38,7 @@ namespace GeradorCodigoGauge.Console
         private static string csvSeparador = ",";
         // Escolher a suite que deseja gerar, ou gerar todas as suites do testplan
         private static int[] _idsTestSuite = null; // Usar linha de comando para gerar por id //new[] { 17570 }; 
-        private static string _filePath = "importacao.csv";
+        public static string _filePath = "importacao.csv";
 
         private static Regex _regexPalavraAspas = new Regex("\"(([^\"\\\\]|\\\\.)*)(\"|\\\\\")", RegexOptions.Compiled);
         private static Regex _regexPalavraTag = new Regex("<(([^<])*)>", RegexOptions.Compiled);
@@ -53,8 +53,8 @@ namespace GeradorCodigoGauge.Console
         private static Dictionary<string, string> _dePara = JsonConvert.DeserializeObject<Dictionary<string, string>>(File.ReadAllText("dePara.json", Encoding.Default));
         private static List<SharedStepConfig> _lstSharedStep = JsonConvert.DeserializeObject<List<SharedStepConfig>>(File.ReadAllText("sharedStepsDePara.json", Encoding.Default));
         private static Dictionary<string, WorkItem> _dicSharedParameters;
-        private static List<TestSuite> _lstTestSuite2Nivel;
-        private static List<TestSuite> _lstTestSuiteFolhas;
+        public static List<TestSuite> _lstTestSuite2Nivel;
+        public static List<TestSuite> _lstTestSuiteFolhas;
         private static List<SharedStepDefinition> _lstSharedStepDef;
         private static List<SpecDefinition> _suiteSpecs;
         private static List<StepGroupConfig> _lstStepGroupConfig = new List<StepGroupConfig>();
@@ -1635,6 +1635,9 @@ namespace {solutionNamespace}.{outputPathPage.Replace("/", ".")}.{parentTitle}.{
 
         private static async Task CarregarTestSuite()
         {
+            if (_lstTestSuiteFolhas != null)
+                return;
+
             var lstTestSuite = await BuscarTestSuite();
 
             // Todo: Filtrar suite 
