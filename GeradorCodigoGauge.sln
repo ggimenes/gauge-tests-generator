@@ -5,7 +5,15 @@ VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCodigoGauge.Console", "GeradorCodigoGauge.Console\GeradorCodigoGauge.Console.csproj", "{C42988EF-E286-4D10-8FAC-227AB1D2BB4A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Azure.IntegrationTests", "GaugeTestsGenerator.Azure.IntegrationTests\GaugeTestsGenerator.Azure.IntegrationTests.csproj", "{0353C8F4-816A-4222-90BC-FA7A199D2C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GaugeTestsGenerator.Azure.IntegrationTests", "GaugeTestsGenerator.Azure.IntegrationTests\GaugeTestsGenerator.Azure.IntegrationTests.csproj", "{0353C8F4-816A-4222-90BC-FA7A199D2C77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Core", "GaugeTestsGenerator.Core\GaugeTestsGenerator.Core.csproj", "{1B37D07D-3779-4F03-BE71-4C2FC34B833D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Azure", "GaugeTestsGenerator.Azure\GaugeTestsGenerator.Azure.csproj", "{0EE748FF-B293-4113-AA5F-BFBE13345EBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.CSharp", "GaugeTestsGenerator.CSharp\GaugeTestsGenerator.CSharp.csproj", "{54595826-A193-4F4B-8C61-F730BC8978C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Gauge", "GaugeTestsGenerator.Gauge\GaugeTestsGenerator.Gauge.csproj", "{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +29,22 @@ Global
 		{0353C8F4-816A-4222-90BC-FA7A199D2C77}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0353C8F4-816A-4222-90BC-FA7A199D2C77}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0353C8F4-816A-4222-90BC-FA7A199D2C77}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B37D07D-3779-4F03-BE71-4C2FC34B833D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B37D07D-3779-4F03-BE71-4C2FC34B833D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B37D07D-3779-4F03-BE71-4C2FC34B833D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B37D07D-3779-4F03-BE71-4C2FC34B833D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EE748FF-B293-4113-AA5F-BFBE13345EBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EE748FF-B293-4113-AA5F-BFBE13345EBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EE748FF-B293-4113-AA5F-BFBE13345EBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EE748FF-B293-4113-AA5F-BFBE13345EBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54595826-A193-4F4B-8C61-F730BC8978C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54595826-A193-4F4B-8C61-F730BC8978C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54595826-A193-4F4B-8C61-F730BC8978C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54595826-A193-4F4B-8C61-F730BC8978C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
