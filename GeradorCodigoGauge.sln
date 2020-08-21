@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.CSharp"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Gauge", "GaugeTestsGenerator.Gauge\GaugeTestsGenerator.Gauge.csproj", "{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.ConsoleApp", "GaugeTestsGenerator.ConsoleApp\GaugeTestsGenerator.ConsoleApp.csproj", "{CE552E7D-12D7-482B-8D92-7E174704B9E5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE552E7D-12D7-482B-8D92-7E174704B9E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE552E7D-12D7-482B-8D92-7E174704B9E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE552E7D-12D7-482B-8D92-7E174704B9E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE552E7D-12D7-482B-8D92-7E174704B9E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
