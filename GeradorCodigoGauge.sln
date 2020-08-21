@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29123.89
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCodigoGauge.Console", "GeradorCodigoGauge.Console\GeradorCodigoGauge.Console.csproj", "{C42988EF-E286-4D10-8FAC-227AB1D2BB4A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeradorCodigoGauge.Console", "src\GeradorCodigoGauge.Console\GeradorCodigoGauge.Console.csproj", "{C42988EF-E286-4D10-8FAC-227AB1D2BB4A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GaugeTestsGenerator.Azure.IntegrationTests", "GaugeTestsGenerator.Azure.IntegrationTests\GaugeTestsGenerator.Azure.IntegrationTests.csproj", "{0353C8F4-816A-4222-90BC-FA7A199D2C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GaugeTestsGenerator.Azure.IntegrationTests", "src\GaugeTestsGenerator.Azure.IntegrationTests\GaugeTestsGenerator.Azure.IntegrationTests.csproj", "{0353C8F4-816A-4222-90BC-FA7A199D2C77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Core", "GaugeTestsGenerator.Core\GaugeTestsGenerator.Core.csproj", "{1B37D07D-3779-4F03-BE71-4C2FC34B833D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Core", "src\GaugeTestsGenerator.Core\GaugeTestsGenerator.Core.csproj", "{1B37D07D-3779-4F03-BE71-4C2FC34B833D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Azure", "GaugeTestsGenerator.Azure\GaugeTestsGenerator.Azure.csproj", "{0EE748FF-B293-4113-AA5F-BFBE13345EBF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Azure", "src\GaugeTestsGenerator.Azure\GaugeTestsGenerator.Azure.csproj", "{0EE748FF-B293-4113-AA5F-BFBE13345EBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.CSharp", "GaugeTestsGenerator.CSharp\GaugeTestsGenerator.CSharp.csproj", "{54595826-A193-4F4B-8C61-F730BC8978C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.CSharp", "src\GaugeTestsGenerator.CSharp\GaugeTestsGenerator.CSharp.csproj", "{54595826-A193-4F4B-8C61-F730BC8978C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Gauge", "GaugeTestsGenerator.Gauge\GaugeTestsGenerator.Gauge.csproj", "{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.Gauge", "src\GaugeTestsGenerator.Gauge\GaugeTestsGenerator.Gauge.csproj", "{9BBE2A7E-1597-4B0F-8858-026793AAD4DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.ConsoleApp", "GaugeTestsGenerator.ConsoleApp\GaugeTestsGenerator.ConsoleApp.csproj", "{CE552E7D-12D7-482B-8D92-7E174704B9E5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GaugeTestsGenerator.ConsoleApp", "src\GaugeTestsGenerator.ConsoleApp\GaugeTestsGenerator.ConsoleApp.csproj", "{CE552E7D-12D7-482B-8D92-7E174704B9E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -54,6 +54,15 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C42988EF-E286-4D10-8FAC-227AB1D2BB4A} = {261EEE79-5DDD-4645-B76B-3E198B3055BB}
+		{0353C8F4-816A-4222-90BC-FA7A199D2C77} = {261EEE79-5DDD-4645-B76B-3E198B3055BB}
+		{1B37D07D-3779-4F03-BE71-4C2FC34B833D} = {261EEE79-5DDD-4645-B76B-3E198B3055BB}
+		{0EE748FF-B293-4113-AA5F-BFBE13345EBF} = {261EEE79-5DDD-4645-B76B-3E198B3055BB}
+		{54595826-A193-4F4B-8C61-F730BC8978C2} = {261EEE79-5DDD-4645-B76B-3E198B3055BB}
+		{9BBE2A7E-1597-4B0F-8858-026793AAD4DA} = {261EEE79-5DDD-4645-B76B-3E198B3055BB}
+		{CE552E7D-12D7-482B-8D92-7E174704B9E5} = {261EEE79-5DDD-4645-B76B-3E198B3055BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0F55C9D4-FB35-40EE-8C83-AC821600153A}

@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\GeradorCodigoGauge.Console\GeradorCodigoGauge.Console.csproj" />
+    <ProjectReference Include="..\..\src\GeradorCodigoGauge.Console\GeradorCodigoGauge.Console.csproj" />
   </ItemGroup>
 
 </Project>

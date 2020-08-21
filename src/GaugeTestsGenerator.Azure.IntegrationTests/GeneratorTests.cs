@@ -26,7 +26,7 @@ namespace GaugeTestsGenerator.Azure.IntegrationTests
             string resultPath = @"c:\\genGaugeTest\";
             DeleteDirectory(resultPath);
             // using robocopy because xcopy fail for some files
-            string copyCommand = $"robocopy {Path.Combine(Environment.CurrentDirectory, @"..\..\..\..\oldData\")} {resultPath} /s";
+            string copyCommand = $"robocopy {Path.Combine(Environment.CurrentDirectory, @"..\..\..\..\..\oldData\")} {resultPath} /s";
             ExecuteCommand(copyCommand);
 
             // Injecting data to avoid Azure api
