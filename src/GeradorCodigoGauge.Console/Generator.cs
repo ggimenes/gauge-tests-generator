@@ -1,10 +1,6 @@
 ﻿using CsvHelper;
 using Dasync.Collections;
-using Microsoft.TeamFoundation.Test.WebApi;
-using Microsoft.TeamFoundation.TestManagement.WebApi;
-using Microsoft.TeamFoundation.WorkItemTracking.WebApi;
 using Microsoft.VisualStudio.Services.Common;
-using Microsoft.VisualStudio.Services.WebApi;
 using Newtonsoft.Json;
 using RestSharp;
 using System;
@@ -16,7 +12,6 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Xml;
 using System.Xml.Serialization;
 
 namespace GeradorCodigoGauge.Console

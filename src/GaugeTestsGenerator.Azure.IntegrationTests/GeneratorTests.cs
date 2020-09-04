@@ -32,8 +32,8 @@ namespace GaugeTestsGenerator.Azure.IntegrationTests
             // Injecting data to avoid Azure api
             string jsonLstTestSuiteFolhas = File.ReadAllText($"{resultPath}_lstTestSuiteFolhas.json", Encoding.Default);
             string jsonLstTestSuite2Nivel = File.ReadAllText($"{resultPath}_lstTestSuite2Nivel.json", Encoding.Default);
-            Generator._lstTestSuiteFolhas = JsonConvert.DeserializeObject<List<TestSuite>>(jsonLstTestSuiteFolhas);
-            Generator._lstTestSuite2Nivel = JsonConvert.DeserializeObject<List<TestSuite>>(jsonLstTestSuite2Nivel);
+            Generator._lstTestSuiteFolhas = JsonConvert.DeserializeObject<List<GeradorCodigoGauge.Console.TestSuite>>(jsonLstTestSuiteFolhas);
+            Generator._lstTestSuite2Nivel = JsonConvert.DeserializeObject<List<GeradorCodigoGauge.Console.TestSuite>>(jsonLstTestSuite2Nivel);
             Generator._filePath = $"{resultPath}importacao.csv";
             Generator.outputPath = $"{resultPath}output";
 

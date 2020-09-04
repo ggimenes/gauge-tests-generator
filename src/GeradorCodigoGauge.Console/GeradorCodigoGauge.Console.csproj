@@ -213,6 +213,12 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GaugeTestsGenerator.Azure\GaugeTestsGenerator.Azure.csproj">
+      <Project>{0ee748ff-b293-4113-aa5f-bfbe13345ebf}</Project>
+      <Name>GaugeTestsGenerator.Azure</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PostBuildEvent>xcopy /i /s /e /y $(TargetDir)*.*  $(SolutionDir)dist</PostBuildEvent>
